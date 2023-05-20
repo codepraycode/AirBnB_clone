@@ -22,3 +22,7 @@ body {
     margin-block: 30px;
     margin-inline: auto; /* center horizontally */
 }
+
+ul {
+    list-style: none;
+}

@@ -33,8 +33,8 @@
     opacity: .9; /* 90% opacity*/
 }
 
-.location,
-.amenities {
+.filters .location,
+.filters .amenities {
     height: 100%;
     width: 25%;
 
@@ -46,18 +46,18 @@
 }
 
 
-.location {
+.filters .location {
     border-right: 1px solid #DDDDDD;
 }
 
-.location h3,
-.amenities h3 {
+.filters .location h3,
+.filters .amenities h3 {
     font-weight: 600;
     margin: 0 0 2px 20px;
 }
 
-.location h4,
-.amenities h4 {
+.filters .location h4,
+.filters .amenities h4 {
     font-weight: 400;
     font-size: 14px;
     margin: 2px 0 0 20px;
@@ -71,7 +71,7 @@ ul.popover {
     padding-block: 10px;
 }
 
-.popover {
+.filters .popover {
     display: none;
     background-color: #FAFAFA;
     width: 100%;
@@ -89,7 +89,7 @@ ul.popover {
 
 }
 
-.popover h2 {
+.filters .popover h2 {
     font-size: 16px;
     margin-bottom: 1px;
 }
