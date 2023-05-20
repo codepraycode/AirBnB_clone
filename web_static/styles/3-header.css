@@ -9,12 +9,13 @@
 
 header {
     background-color: white;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20px;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #ccc ;
-
-    display: flex;
-    align-items: center;
 
     margin-bottom: 30px;
 }
