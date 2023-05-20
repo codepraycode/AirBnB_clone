@@ -1,1 +1,14 @@
 /* Footer style */
+
+footer {
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+    /* ALign text center vertically and horizontally */
+    text-align: center;
+    line-height: 60px;
+
+    /* ALways at the bottom */
+    position: fixed;
+    bottom: 0;
+}
