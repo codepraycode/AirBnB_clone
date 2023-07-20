@@ -180,7 +180,7 @@ class HBNBCommand(cmd.Cmd):
             if id_object not in storage.all():
                 print("** no instance found **")
             else:
-                dog = r"\d+\.\d+"
+                decimal_regex = r"\d+\.\d+"  # regex to check if it is a number with decimal point
                 id_object = "{}.{}".format(args_list[0], args_list[1])
                 name_attr = args_list[2]
                 value = args_list[3]
@@ -188,7 +188,7 @@ class HBNBCommand(cmd.Cmd):
                     integer and float. """
                 if '"' in arg[3]:
                     pass
-                elif search(dog, arg[3]):
+                elif search(decimal_regex, arg[3]):
                     value = float(value)
                 elif arg[3].isdigit():
                     value = int(value)
